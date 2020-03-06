@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_custom_list)
+        setContentView(R.layout.activity_main)
 
         var students = mutableListOf<Student>()
 
@@ -63,7 +63,9 @@ class MainActivity : AppCompatActivity() {
             } else if (position == 1) {
                 var i = Intent(this, MainActivity::class.java)
                 startActivity(i)
-
+            } else if (position == 2) {
+                var i = Intent(this, MainActivity::class.java)
+                startActivity(i)
             }
         }
     }

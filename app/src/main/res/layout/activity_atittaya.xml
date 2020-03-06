@@ -4,14 +4,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".AtittayaActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="185dp"
         android:layout_height="167dp"
         app:srcCompat="@drawable/w"
-        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="77dp" />
 
     <TextView
@@ -21,7 +22,7 @@
         android:text="นางสาวอาทิตยา ฉิมมาแก้ว"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="287dp" />
+        tools:layout_editor_absoluteY="274dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -30,7 +31,7 @@
         android:text="603410321-2"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="328dp" />
+        tools:layout_editor_absoluteY="317dp" />
 
     <SeekBar
         android:id="@+id/seekBar"
@@ -39,11 +40,12 @@
         android:layout_marginStart="7dp"
         android:layout_marginEnd="13dp"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        tools:layout_editor_absoluteY="397dp" />
+        tools:layout_editor_absoluteY="377dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_savew"
         android:layout_width="219dp"
         android:layout_height="37dp"
         android:layout_marginStart="95dp"
@@ -54,8 +56,9 @@
         android:text="save"
         android:textColor="#0C0C0C"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="643dp" />
+        tools:layout_editor_absoluteY="629dp" />
 
     <EditText
         android:id="@+id/editText2"
@@ -67,8 +70,9 @@
         android:gravity="start|top"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="534dp" />
+        tools:layout_editor_absoluteY="518dp" />
 
     <TextView
         android:id="@+id/textView9"
@@ -76,7 +80,7 @@
         android:layout_height="wrap_content"
         android:text="Comment"
         tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="503dp" />
+        tools:layout_editor_absoluteY="485dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -85,7 +89,7 @@
         android:text="-5"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="424dp" />
+        tools:layout_editor_absoluteY="402dp" />
 
     <TextView
         android:id="@+id/textView8"
@@ -94,6 +98,6 @@
         android:text="5"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="356dp"
-        tools:layout_editor_absoluteY="421dp" />
+        tools:layout_editor_absoluteY="399dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

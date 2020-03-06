@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_custom_list)
 
         var students = mutableListOf<Student>()
 
@@ -58,13 +58,13 @@ class MainActivity : AppCompatActivity() {
         listview.setOnItemClickListener { parent, view, position, id ->
             //Toast.makeText(this,position.toString(),Toast.LENGTH_SHORT).show()
             if (position == 0) {
-                var i = Intent(this, WomanActivity::class.java)
+                var i = Intent(this, ManActivity::class.java)
                 startActivity(i)
             } else if (position == 1) {
-                var i = Intent(this, MainActivity::class.java)
+                var i = Intent(this, WomanActivity::class.java)
                 startActivity(i)
             } else if (position == 2) {
-                var i = Intent(this, MainActivity::class.java)
+                var i = Intent(this, AtittayaActivity::class.java)
                 startActivity(i)
             }
         }

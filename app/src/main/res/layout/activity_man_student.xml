@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ManActivity">
 
     <TextView
         android:id="@+id/textView12"
@@ -29,7 +30,7 @@
         tools:layout_editor_absoluteY="508dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_man"
         android:layout_width="256dp"
         android:layout_height="37dp"
         android:layout_marginStart="96dp"

@@ -1,0 +1,2 @@
+rootProject.name='UIQuiz'
+include ':app'
